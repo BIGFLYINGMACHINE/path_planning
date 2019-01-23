@@ -105,8 +105,6 @@ def a_star_search(graph, start, goal):
 
 def main():
     graph = Graph(60, 60)
-
-    
     sx = 10.0  
     sy = 10.0  
     gx = 55.0  
@@ -114,6 +112,7 @@ def main():
     start = (sx, sy)
     goal = (gx, gy)
     wall_x, wall_y = [], []
+    
     for i in range(55):
         wall_x.append(30)
         wall_y.append(i)
